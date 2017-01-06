@@ -1,18 +1,10 @@
-# Have Fun with Machine Learning: A Guide for Beginners
+# 与机器学习为乐: 初学者指南
 
-##Preface
+##前言
 
-This is a **hands-on guide** to machine learning for programmers with *no background* in
-AI. Using a neural network doesn’t require a PhD, and you don’t need to be the person who
-makes the next breakthrough in AI in order to *use* what exists today.  What we have now
-is already breathtaking, and highly usable.  I believe that more of us need to play with
-this stuff like we would any other open source technology, instead of treating it like a
-research topic.
+这是一本 **上手** 机器学习教程，目标对象是*没有*任何关于AI背景知识的程序员。使用神经网络不需要你有博士学位，你也不必是在AI领域有着突破性进展的人士。我们现有的技术已经是突破性的了，而且高度可用。我相信我们中的大部分可以象使用其它开源技术一样使用这些技术，而不是把它们当成科研课题一样对待。
 
-In this guide our goal will be to write a program that uses machine learning to predict, with a
-high degree of certainty, whether the images in [data/untrained-samples](data/untrained-samples)
-are of **dolphins** or **seahorses** using only the images themselves, and without
-having seen them before.  Here are two example images we'll use:
+本指南中，我们的目标是写一个程序来使用机器学习来用高确定性预测，在[data/untrained-samples](data/untrained-samples)中的图片是 **海豚** 还是 **海马** ，使用的仅是图片本身而且之前没有见过它们。下面是我们要使用的两张图片：
 
 ![A dolphin](data/untrained-samples/dolphin1.jpg?raw=true "Dolphin")
 ![A seahorse](data/untrained-samples/seahorse1.jpg?raw=true "Seahorse")
